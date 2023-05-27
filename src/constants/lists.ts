@@ -1,6 +1,5 @@
-export const UNI_LIST = 'https://gateway.ipfs.io/ipns/tokens.uniswap.org'
+export const UNI_LIST = 'https://gist.githubusercontent.com/wezrule/e99cb96cc906cdf54c5cc99588cbf784/raw/86fe4e732c5fc9abd669ab9c3d098390bed18f6a/gistfile1.txt'
 export const UNI_EXTENDED_LIST = 'https://gateway.ipfs.io/ipns/extendedtokens.uniswap.org'
-const UNI_UNSUPPORTED_LIST = 'https://gateway.ipfs.io/ipns/unsupportedtokens.uniswap.org'
 const AAVE_LIST = 'tokenlist.aave.eth'
 const BA_LIST = 'https://raw.githubusercontent.com/The-Blockchain-Association/sec-notice-list/master/ba-sec-list.json'
 // TODO(INFRA-179): Re-enable CMC list once we have a better solution for handling large lists.
@@ -22,7 +21,7 @@ export const ARBITRUM_LIST = 'https://bridge.arbitrum.io/token-list-42161.json'
 export const CELO_LIST = 'https://celo-org.github.io/celo-token-list/celo.tokenlist.json'
 export const PLASMA_BNB_LIST = 'https://raw.githubusercontent.com/plasmadlt/plasma-finance-token-list/master/bnb.json'
 
-export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST, UNI_UNSUPPORTED_LIST]
+export const UNSUPPORTED_LIST_URLS: string[] = [BA_LIST]
 
 // default lists to be 'active' aka searched across
 export const DEFAULT_ACTIVE_LIST_URLS: string[] = [UNI_LIST]
